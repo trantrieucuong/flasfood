@@ -13,6 +13,7 @@ import org.springframework.core.io.UrlResource;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.java.config.StorageProperties;
 import com.java.exception.StorageException;
 import com.java.exception.StorageFileNotFoundException;
 import com.java.service.StorageService;
